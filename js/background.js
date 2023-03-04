@@ -1,4 +1,4 @@
-const images = ["0.jpg", "1.jpg", "2.jpg"];
+const images = ["0.jpg", "1.jpg", "2.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg"];
 
 const choosenImage = images[Math.floor(Math.random() * images.length)];
 
@@ -8,6 +8,6 @@ img.src = `img/${choosenImage}`;
 img.width = "1000";
 img.height = "1000";
 
-document.body.appendChild(img);
+// document.body.appendChild(img);
 
-// document.body.style.backgroundImage = `url("img/${choosenImage}")`;
+document.body.style.backgroundImage = `url("img/${choosenImage}")`;

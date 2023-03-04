@@ -18,7 +18,7 @@ function onLoginBtnClick(event) {
 function greetUser() {
   const user = localStorage.getItem(USERNAME_KEY);
   greet.classList.remove(HIDDEN_CLASSNAME);
-  greet.innerText = `Hello ${user}`;
+  greet.innerText = `Good Morning, ${user}.`;
 }
 
 function storeUserName(username) {
