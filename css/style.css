@@ -60,13 +60,26 @@ h2 {
     cursor: pointer;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.greeting-box {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 /* Greeting styles */
 #greeting {
     color: white;
-    font-size: 3rem;
+    font-size: 2.4rem;
     font-weight: 300;
     text-align: center;
-    margin-top: 33rem;
+    /* margin-top: 47%; */
+
 }
 
 /* To-do form styles */
