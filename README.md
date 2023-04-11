@@ -1,6 +1,6 @@
 # momentum clone
 
-used Chat gpt for generating css styles, below is the link of the site and also some demo images;
+It's a TODO app with fething weather info for current location using openweathermap api
 
 https://hatke42.github.io/momentum/
 
